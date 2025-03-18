@@ -1,0 +1,33 @@
+About Browser -- > it renders the html code 
+<!DOCTYPE html> tells the Browser that you are using HTML5
+<head > --> meta information (useful but not to display in website)
+<viewport> : makes the website responsive
+<title> : gives the website a title 
+
+HTML is not a case sensitive language 
+
+HTML Attribute : it add more information to the tag
+
+Semantic Tag : Header , footer, main
+non - Semantic Tag : div , p
+
+
+inside main tag :
+Section tag
+Article tag
+Aside tag
+
+
+
+Div tag  : a container for other HTML elements , used with block elements
+Span tag : a container used with other HTML elements, inline elements (takes width as per size)
+
+form tag  : <form></form>
+<input type="text" placeholder="password">
+
+
+
+ 
+
+
+
