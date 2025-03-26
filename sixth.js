@@ -145,20 +145,32 @@
 
 
 //classes in js 
-class Myclass{
+// class Myclass{
 
-    constructor(email,password){
-        this.email=email;
-        this.password=password;
-    }
+//     constructor(email,password){
+//         this.email=email;
+//         this.password=password;
+//     }
 
-    encrypt(){
-        return`${this.password}abc`;
-    }
-}
+//     encrypt(){
+//         return`${this.password}abc`;
+//     }
+// }
+// class yourClass extends Myclass{
+//     constructor(email,password){
+//         super(email);
+//         this.password=password;
+//     }
+//     username(){
+//         console.log(this.email);
+        
+//     }
+// }
+// const chai = new Myclass("van@gn","dwdwwd");
+// const oo = new yourClass("hello","xyx");
+// console.log(oo.username());
 
-const chai = new Myclass("van@gn","dwdwwd");
-console.log(chai.encrypt());
+// console.log(chai.encrypt());
 
 
 
@@ -199,8 +211,14 @@ console.log(chai.encrypt());
 
 
 
+let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+console.log(typeof text);
 
-
+const obj = JSON.parse(text);
+console.log(obj);
 
 
 

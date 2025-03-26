@@ -221,7 +221,7 @@
 
 //event object 
 // in simple words js engine execute the code line by  line 
-//browser = jsengine + extra features
+// browser = jsengine + extra features
 // browser = js engine + webAPI
 
 // so when a event listner is performed then the browser send the call backfunction to the js engine 

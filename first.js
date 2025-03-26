@@ -101,8 +101,9 @@
 // let newStr = +str1+ +str2+2 ;
 // console.log(newStr);
 // console.log(typeof newStr);
-// newStr = +str1+ +str2+2 +"";
+// newStr = +str1+ +"" +str2+2 ;
 // console.log(typeof newStr);
+// console.log(newStr);
 
 //template String 
 // let age=22;
@@ -193,8 +194,8 @@
 
 //prompt 
 // let num =19;
-// let userguess = +prompt("guess a number ");
-// // userguess= +userguess;
+// let userguess = prompt("guess a number ");
+// userguess= +userguess;
 // console.log(typeof userguess,userguess);
 
 // switch
@@ -395,13 +396,14 @@
 
 
 //computed properties
+// passing as a reference 
 // const key11="key1";
 // const key22="key2";
 
 // const val11="val1";
 // const val22="val2";
 
-// const obj1={[key11]:val11 , [key22]:val22};
+// const obj1={key11:val11 , [key22]:val22};
 // console.log(obj1);
 
 
@@ -432,8 +434,8 @@
 //     year:9192,
 //     age:12
 // };
-// const{bandName:var1,famousSong,...obj}=band;
-// console.log(famousSong,var1);
+// const{bandName:var1,age,...obj}=band;
+// console.log(age,var1,obj);
 // // // var1 is variable name  inorder to change the variable name if you want 
 // console.log(obj)
 
@@ -455,7 +457,6 @@
 //      {userId:1,name:"vand",gender:"male"}
 //     ,{userId:2,name:"vandan",gender:"male"}
 //     ,{userId:3,name:"vandtha",gender:"female"}
-
 // ];
 
 // const[{name:var1,userId:Id},user2,{gender:var2}]=arr;

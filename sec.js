@@ -35,7 +35,7 @@
 
 //function Expression
 
-// cons t happybday= function(){
+// const happybday= function(){
 //     console.log("Happy Birthday");
 // }; 
 // console.log(happybday);
@@ -66,7 +66,7 @@
     
 // }
 
-//function inside fuunction
+//function inside function
 
 // const hello=()=>{
 //     const myfunc=()=>{
@@ -183,7 +183,7 @@
 // arr.forEach((element,index)=>{
 //     console.log(element*2 , "index is ",index);
     
-// // })
+// })
 
   
 // const user=[
@@ -251,6 +251,11 @@
 // arr.sort((a,b)=>{
 //     return a-b;
 // })
+// console.log(arr);
+
+
+// let arr =[1,2,3,4,5,6,7,8]
+// arr.copyWithin(1,3,6)
 // console.log(arr);
 
 

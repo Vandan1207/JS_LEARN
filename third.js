@@ -5,8 +5,15 @@
 // order is not guranteed
 
 //syntax
-// const item = ['item1','item2','item3'];
+// const item = ['item1','item2','item3','item1'];
+// const ss = new Set(item)
+// console.log(ss);
+
 // const num = new Set("abc");
+// console.log(num);
+// console.log([...ss])
+
+
 // num.add(1);
 // num.add(2);
 // num.add(4);
@@ -14,6 +21,8 @@
 // num.add(5);
 // num.add("abc"); 
 // num.add(item);
+
+// num.add(['item1','item2','item']);
 // console.log(num);
 
 // const arr = [1,2,3,2,5,4,2,1];
@@ -108,7 +117,6 @@
 
 //2nd way (clone using object assign)
 // const obj2= Object.assign({},obj1);
-
 
 
 //optional chaining 
@@ -236,6 +244,7 @@
 //     bb:"wdwd"
 // }
 // let obj2= Object.create(obj1);
+// console.log(obj2)
 // console.log(obj2.aa);
 // console.log(obj2.__proto__)
 // obj2.aa="ooooo";
@@ -291,7 +300,6 @@
 
 // let createobj = function(firstname,age){
 //     const user =Object.create(createobj.prototype);//rather than storing methods for every user, it stores the reference 
-
 //     user.firstname=firstname;
 //     user.age=age;
 //     return user;
@@ -299,12 +307,13 @@
 
 //         createobj.prototype.about=function(){
 //             console.log(`name is ${this.firstname}`)
-//         }f
+//         }
 //         createobj.prototype.isage=function(){
 //             console.log("age is",this.age);
 //         }
 
 // const u1=createobj("van",22);
+// console.log(u1);
 // u1.about()
 
 
@@ -317,7 +326,7 @@
 // function hello(){
 //     console.log("dwd")
 // }
-// hello.abc="dwdw";
+// // hello.abc="dwdw";
 
 // hello.prototype.abc="qqq";
 // console.log(hello.abc)
@@ -383,7 +392,7 @@
 //     eats(){
 //         console.log("eats grass");
 //     }
-// }
+// 
 // const horse = new Animal("dd",12);
 // console.log(horse);
 
